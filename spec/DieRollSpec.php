@@ -78,7 +78,6 @@ class DieRollSpec extends ObjectBehavior
     function it_should_have_a_value_between_0_and_5_for_1d6_minus_1()
     {
         $this->roll('1d6-1')->shouldBeBetween(0, 5);
-
     }
 }
 
