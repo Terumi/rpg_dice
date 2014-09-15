@@ -2,8 +2,8 @@
 _An exercise for TDD in php using phpspec._
 
 ###### Todos:
-[] loop a test
-[] conditional test / if applicable
-[] aggregators
-[] chained methods
+1. loop a test
+2. conditional test / if applicable
+3. aggregators
+4. chained methods
 
