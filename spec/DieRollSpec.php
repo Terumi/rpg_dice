@@ -68,7 +68,6 @@ class DieRollSpec extends ObjectBehavior
     function it_should_have_a_value_between_1_and_6()
     {
         $this->roll('1d6')->shouldBeBetween(1, 6);
-
     }
 
     function it_should_have_a_value_between_2_and_12_for_2d6()

@@ -19,13 +19,9 @@ class DieRoll
             foreach (range(1, $times) as $i) {
                 $sum += $this->roll_a_die($faces);
             }
-
-
             return $sum;
         }
-
         return [];
-
     }
 
     public function explain($description)
@@ -45,9 +41,6 @@ class DieRoll
         return [(int)$die_number[0], (int)$die_number[1]];
     }
 
-    /**
-     * @return int
-     */
     public function roll_a_die($faces)
     {
         $die = new Bone($faces);
