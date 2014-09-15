@@ -1,0 +1,3 @@
+npm install rimraf -g
+npm install gulp-autoprefixer --save-dev --no-bin-links
+npm install gulp-minify-css --save-dev --no-bin-links

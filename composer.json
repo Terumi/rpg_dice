@@ -1,0 +1,17 @@
+{
+	"name": "dice",
+	"description": "The RPG dice simulator.",
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"phpspec/phpspec": "2.0"
+	},
+	"autoload": {
+        "psr-0":{
+            "":"src/"
+        }
+	},
+	"scripts": {
+
+	}
+}
